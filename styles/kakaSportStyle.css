@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'ManMigamVazir';
+    src: url(../vazir-fonts/fonts/Vazir-Bold.woff2) format('woff2'),
+        url(../vazir-fonts/fonts/Vazir-Light.eot) format('eot'),
+        url(../vazir-fonts/fonts/Vazir-Bold.woff) format('wof');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ManMigamVazir;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/*******************************  Header - navbar ************************************/
+
+header .befor-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+header .befor-nav .registration-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .befor-nav .registration-btn i {
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+header .befor-nav .registration-btn button {
+    padding: 10px 20px;
+    background-color: #00bf6f;
+    border: 3px solid #00bf6f;
+    border-radius: 10px;
+    color: #3f3f3f;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.85;
+    transition: all 0.3s;
+}
+
+header .befor-nav .registration-btn button:hover {
+    opacity: 1;
+}
+
+header .input_brands {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid #3f3f3f;
+    border-radius: 8px;
+}
+
+.input_brands input {
+    width: 92%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.input_brands button {
+    border-right: none;
+    padding: 6px;
+    margin-right: -10px;
+    border: none;
+}
+
+header nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header nav div {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+header nav div .list {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav div .list .list-items {
+    font-size: 15px;
+}
+
+header nav div .list .list-items:last-child {
+    display: flex;
+    align-items: center;
+}
+
+header nav div .list .list-items a {
+    text-decoration: none;
+    padding: 16px;
+    color: #3f3f3f;
+}
+
+header nav div .list .list-items a:hover {
+    text-decoration: none;
+    color: #00bf6f;
+}
+
+header nav div .list .list-items.active a {
+    background-color: #00bf6f;
+    color: #fff;
+}
+
+/*******************kakaSport header image*********************/
+.kakaSport_header_img {
+    width: 100%;
+}
+
+.kakaSport_header_img img {
+    width: 100%;
+}
+
+/*********************fashion classes*************************/
+.kakaSport_classes span {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.kakaSport_products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.kakaSport_products .kakaSport_products_list {
+    width: 113px;
+    height: 145px;
+    transition: all ease 0.9s;
+    cursor: pointer;
+}
+
+.kakaSport_products .kakaSport_products_list:hover {
+    transform: scale(1.05) rotate(1deg);
+}
+
+/***************** kaka sport categories ********************/
+.kaka_sport_cat {
+    margin: 50px;
+}
+
+.kaka_sport_cat span {
+    margin: 30px auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.kaka_sport_cat .sport {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/******************newest******************/
+
+.newest span {
+    margin: 30px auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.newest .categories{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newest .categories .cat img {
+    width: 330px;
+    height: 396px;
+    border-radius: 10px;
+}
+
+.newest .categories .cat p {
+    font-size: 14px;
+}
+
+.newest .categories .cat p span {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 12px;
+    padding: 0;
+    background-color: #f16423;
+    color: #fff;
+}
+
+.see{
+    display: block;
+    padding: 10px 50px;
+    margin: 30px auto;
+    background-color: transparent;
+    color: #00bf6f;
+    font-size: 20px;
+    font-weight: bold;
+    border:2px solid #020202;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.see:hover{
+    border-color: #00bf6f;
+}
+
+/********************Footer*********************/
+footer .row {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.more_info {
+    width: 16.67%;
+    height: 100%;
+}
+
+.more_info ul {
+    list-style-type: none;
+    font-size: 20px;
+
+}
+
+.more_info ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 10px;
+    text-align: right;
+}
+
+
+
+.more_info ul .title {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.more_info ul .title1 {
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
